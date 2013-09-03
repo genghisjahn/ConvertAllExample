@@ -35,7 +35,7 @@ namespace ConvertAllTests
 
         [TestMethod]
         [ExpectedException(typeof(Exception),
-        "There should have been in exception thrown.")]
+        "There should have been an exception thrown.")]
         public void Invalid_Test_Passed_To_Converter_Test()
         {
             int invalid=5;
